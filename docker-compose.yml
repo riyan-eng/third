@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  backend:
+    build: .
+    container_name: third
+    image: third
+    ports:
+      - 3003:3000
