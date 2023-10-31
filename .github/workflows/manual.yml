@@ -6,4 +6,4 @@ jobs:
     - name: deploy
       uses: wei/curl@master
       with:
-        args: https://third.nayatech.id/github
+        args: http://167.71.202.209:9000/hooks/deploy-third
